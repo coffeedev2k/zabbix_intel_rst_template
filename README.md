@@ -1,6 +1,6 @@
 # zabbix_intel_rst_template
 ## Description
-This template is for discovering and monitoring Intel RST (Intel VROC) storage controllers. Works with zabbix 4.2 and higher. Template uses
+This template is for discovering and monitoring Intel RST (Intel VROC) storage controllers. Works with zabbix 4.4 and higher. Template uses
 action with zabbix API.
 
 ## Main features
