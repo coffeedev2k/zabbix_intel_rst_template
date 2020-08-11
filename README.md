@@ -40,6 +40,15 @@ servers, monitoring by this template
   ## Enjoy
 
 
+############################
+debug 
+client:
+1)check working cli on your server - im my case it 5.6.0_rstcli64.exe
+2)run script from zabbix server to client - zabbix_get -s 1.1.1.1 -k irst.allinfo[5.6.0_rstcli64.exe] where 1.1.1.1 is ip of configured client you must get many information about client raid config
+
+if nothing work, add on zabbix server global macros with name {$IRST_CLI} and variable 5.6.0_rstcli64.exe
+
+
 
 
 
